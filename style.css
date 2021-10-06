@@ -62,7 +62,7 @@ body{
 }
 
 .header_info {
-    width: 300px;
+    /*width: 300px;*/
     /* height: 80px; */
     background: #222222;
     position: absolute;
