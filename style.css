@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+body{
+    background: rgb(17, 17, 17);
+}
+
+.container{
+    width: 100%;
+    
+}
+
+.header{
+        background: black;
+    height: 74px;
+    position: relative;
+    border-bottom: solid 2px #015eaf;
+
+}
+
+.header .header_main{
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    
+}
+
+.name{
+    top: -5px;
+    left: 5px;
+}
+
+.prenom{
+    font-size: 36px;
+    font-family: 'Russo One', sans-serif;
+    color: #015eaf;
+    
+    
+}
+.nom{
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    color: #015eaf;
+
+}
+
+.autre{
+    top: 36px;
+    left: 6px;
+    font-size: 17px;
+}
+
+.autre span {
+    position: absolute;
+    font-size: 14px;
+    width: 70px;
+    right: -12px;
+    bottom: -13px;
+    font-style: italic;
+}
+
+.header_info {
+    width: 300px;
+    /* height: 80px; */
+    background: #222222;
+    position: absolute;
+    right: 15px;
+    bottom: -34px;
+    border: solid 1px grey;
+    padding: 5px;
+}
+
+.info_icon{
+    margin: -5px 4px;
+    transform: rotate(-17deg);
+}
+
+
+
+.navbar{
+    height: 43px;
+    background: linear-gradient(270deg, #1c1c1c, #2e2e2e);
+}
+
+.main_content {
+    margin: auto;
+    max-width: 1100px;
+}
+
+
+.big_presentation{
+    width: 100%;
+    height: 350px;
+    background: black;
+    position: relative;
+}
+
+.presentation {
+    position: absolute;
+    right: 54px;
+    top: 46px;
+    width: 501px;
+}
+
+
+.section_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_flex .section{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.section_flex .flex_left{
+    width: 100%;
+    margin-right: 10px;
+}
+.section_flex .flex_right{
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+.section {
+    background: #282828;
+    margin: 16px 0; 
+    max-width: 100%;
+        border-bottom: 2px solid #015eaf;
+}
+
+h1.section_title {
+    text-transform: uppercase;
+    background: linear-gradient(
+90deg, #2d81ff, #020530);
+    padding: 5px;
+    letter-spacing: 0.15em;
+    font-size: 28px;
+}
+
+.section_content {
+    padding: 10px;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.section_content li{
+    margin: 23px 0;
+}
+
+
+
+
+.list_item {
+    line-height: 24px;
+    padding: 5px 0;
+    padding-left: 10px;
+    /* padding: 5px; */
+    /* border: 2px solid #8585853d; */
+    background: linear-gradient( 90deg, #83838333, transparent);
+    border-radius: 7px;
+}
+span.année {
+    font-size: 12px;
+    color: #87b6ff;
+}
+.info{
+    font-size: 14px;
+}
+span.diplome {
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    color: #87b6ff;
+}
